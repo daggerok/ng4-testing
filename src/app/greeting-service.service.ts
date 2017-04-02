@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class GreetingServiceService {
-
-  constructor() { }
-
+  public sayHi(name: string = 'buddy'): string {
+    return `hello, ${name}!`;
+  }
 }

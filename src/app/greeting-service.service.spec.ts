@@ -9,7 +9,11 @@ describe('GreetingServiceService', () => {
     });
   });
 
-  it('should ...', inject([GreetingServiceService], (service: GreetingServiceService) => {
+  it('should be', inject([GreetingServiceService], (service: GreetingServiceService) => {
     expect(service).toBeTruthy();
+  }));
+
+  it('should return "hello, buddy" if no input provided', inject([GreetingServiceService], (service: GreetingServiceService) => {
+    expect(service.sayHi()).toBe('hello, buddy!');
   }));
 });
