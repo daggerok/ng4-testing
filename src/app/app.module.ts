@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GreetingServiceService } from './greeting-service.service';
+import { GreetingServiceService } from './common/greeting/greeting-service.service';
 
 @NgModule({
   declarations: [
