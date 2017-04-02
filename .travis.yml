@@ -16,8 +16,9 @@ before_install:
   - npm i -g yarn
 script:
   - yarn install
-  - yarn test -- --singleRun
   - yarn lint
+  - yarn test -- --singleRun
+  - yarn e2e
   - yarn build
   - yarn build --prod
   - yarn build --prod --aot
