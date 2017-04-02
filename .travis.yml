@@ -22,6 +22,13 @@ script:
   - yarn build
   - yarn build --prod
   - yarn build --prod --aot
+  - yarn upgrade
+  - yarn lint
+  - yarn test -- --singleRun
+  - yarn e2e
+  - yarn build
+  - yarn build --prod
+  - yarn build --prod --aot
 after_script:
   - if [ -f npm-debug.log ]; then cat npm-debug.log; fi
 cache:
