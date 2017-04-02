@@ -16,4 +16,8 @@ describe('GreetingServiceService', () => {
   it('should return "hello, buddy" if no input provided', inject([GreetingServiceService], (service: GreetingServiceService) => {
     expect(service.sayHi()).toBe('hello, buddy!');
   }));
+
+  it('should return "hello, Max" if input "Max" provided', inject([GreetingServiceService], (service: GreetingServiceService) => {
+    expect(service.sayHi('Max')).toBe('hello, Max!');
+  }));
 });
