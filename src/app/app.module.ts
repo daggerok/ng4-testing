@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GreetingServiceService } from './common/greeting/greeting-service.service';
+import { GreetingService } from './common/greeting/greeting.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { GreetingServiceService } from './common/greeting/greeting-service.servi
     AppRoutingModule,
   ],
   providers: [
-    GreetingServiceService,
+    GreetingService,
   ],
   bootstrap: [
     AppComponent,
