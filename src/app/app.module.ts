@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { GreetingService } from './common/greeting/greeting.service';
 import { AsyncGreetingService } from './common/greeting/async-greeting.service';
 import { HttpGreetingService } from './common/greeting/http-greeting.service';
+import { NameService } from './common/name/name.service';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HttpGreetingService } from './common/greeting/http-greeting.service';
     GreetingService,
     AsyncGreetingService,
     HttpGreetingService,
+    NameService,
   ],
   bootstrap: [
     AppComponent,
