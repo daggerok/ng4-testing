@@ -28,13 +28,13 @@ describe('AsyncGreetingService', () => {
     expect(asyncGreetingService).toBeTruthy();
   });
 
-  it('should return "hello, buddy" if no input provided using async', async(() => {
+  it('should return "hello, buddy!" if no input provided using async', async(() => {
     asyncGreetingService.sayHiAsync().then(result => {
       expect(result).toBe('hello, buddy!');
     });
   }));
 
-  it('should return "hello, Max" if input "Max" provided using fakeAsync', fakeAsync(() => {
+  it('should return "hello, Max!" if input "Max" provided using fakeAsync', fakeAsync(() => {
     let greeting;
 
     asyncGreetingService.sayHiAsync('Max').then(result => {
