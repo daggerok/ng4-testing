@@ -1,8 +1,9 @@
 # ng4-testing [![Build Status](https://travis-ci.org/daggerok/ng4-testing.svg?branch=master)](https://travis-ci.org/daggerok/ng4-testing)
 
-[Angular Unit Testing](https://www.youtube.com/watch?v=FM8E-r6m624)
-[Talk: Testing with Angular - Some recipes](https://www.youtube.com/watch?v=Uw_XomCJaGQ)
-[OPEN331 - Angular 2 Testing: Techniques and Practices (Adam Stephensen, Duncan Hunter)](https://www.youtube.com/watch?v=P5CzRrgnOBA)
+helpful videos:
+- [Angular Unit Testing](https://www.youtube.com/watch?v=FM8E-r6m624)
+- [Talk: Testing with Angular - Some recipes](https://www.youtube.com/watch?v=Uw_XomCJaGQ)
+- [OPEN331 - Angular 2 Testing: Techniques and Practices (Adam Stephensen, Duncan Hunter)](https://www.youtube.com/watch?v=P5CzRrgnOBA)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
