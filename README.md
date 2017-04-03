@@ -1,5 +1,7 @@
 # ng4-testing [![Build Status](https://travis-ci.org/daggerok/ng4-testing.svg?branch=master)](https://travis-ci.org/daggerok/ng4-testing)
 
+[according to this video](https://www.youtube.com/watch?v=Uw_XomCJaGQ)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
 ## Development server
